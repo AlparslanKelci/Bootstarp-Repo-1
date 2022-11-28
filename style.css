@@ -1,23 +1,60 @@
 /* unvisited link */
 a:link {
-    color: white;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: white;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: mediumvioletred;
-    background-color: white;
-    text-decoration:none ;
-  }
-  
-  /* selected link */
-  a:active {
-    color: white;
-    background-color: white;
-    text-decoration:none ;
-  }
+  color: mediumvioletred;
+}
+
+/* visited link */
+a:visited {
+  color: mediumvioletred;
+}
+
+/* mouse over link */
+a:hover {
+  color: mediumvioletred;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: mediumvioletred;
+  background-color: white;
+  text-decoration: none;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.btn:link  {
+  color: white;
+}
+
+.btn-danger:link  {
+  color: white;
+}
+
+.btn:visited  {
+  color: white;
+}
+
+.btn-danger:visited  {
+  color: white;
+}
+
+
+.nav  {
+  color: white;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace;
+  font-size: large;
+}
+
+.nav-pills  {
+  color: white;
+  background-color: white;
+}
+

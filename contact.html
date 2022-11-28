@@ -1,52 +1,82 @@
 <!doctype html>
 <html lang="tr">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,
+            shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+            integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+            crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css">
 
-    <title>Bootstrap Ödev-1</title>
-  </head>
-  <body style="background-color: #343A40 ;">
-    <header class="jumbotron jumbotron-fluid d-flex justify-content-center" style="background-color:black; color: white ; margin-bottom:20px; padding: 20px;">  
-        <h1 class="display-6" style="color:; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">FOTOĞRAF GALERİM</h1>
-    </header>
-    <nav class="nav nav-pills flex-column flex-sm-row" style="padding-top: 0; margin-bottom: 20px;">        
-        <a class="flex-sm-fill text-sm-center nav-link" style="border:1px; border-style: double; border-color: mediumvioletred;" href="index.html">Ana Sayfa</a>
-        <!-- <a class="flex-sm-fill text-sm-center nav-link" style="border:1px; border-style: outset; border-color: mediumvioletred;" href="#">Mağaza</a> -->
-        <a class="flex-sm-fill text-sm-center nav-link" style="border:1px; border-style: double; border-color: mediumvioletred;" href="about.html">Hakkımda</a>
-        <a class="flex-sm-fill text-sm-center nav-link active" style="background-color: mediumvioletred;" href="contact.html"">İletişim</a>
-    </nav> 
+        <title>Bootstrap Ödev-1</title>
+    </head>
+    <body style="background-color: #343A40 ;">
+        <header class="jumbotron jumbotron-fluid d-flex justify-content-center"
+          style="background-color:black; color: white ; margin-bottom:20px; padding:
+          20px;">
+          <h1 class="display-6" style="color:white; font-family:'Lucida Sans', 'Lucida
+            Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+            sans-serif;">S T O R A</h1>
+            <h1 class="display-6" style="color:violet; font-family:'Lucida Sans', 'Lucida
+            Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana,
+            sans-serif;">G U I T A R A</h1>
+        </header>
+        <nav class="nav nav-pills flex-column flex-sm-row" style="padding-top:
+            0; margin-bottom: 20px;">
+            <a class="flex-sm-fill text-sm-center nav-link" style="border:1px;
+                border-style: double; border-color: mediumvioletred;"
+                href="index.html">Ana Sayfa</a>
+            <!-- <a class="flex-sm-fill text-sm-center nav-link" style="border:1px; border-style: outset; border-color: mediumvioletred;" href="#">Mağaza</a> -->
+            <a class="flex-sm-fill text-sm-center nav-link" style="border:1px;
+                border-style: double; border-color: mediumvioletred;"
+                href="about.html">Hakkımda</a>
+            <a class="flex-sm-fill text-sm-center nav-link active"
+                style="background-color: mediumvioletred;" href="contact.html"">İletişim</a>
+        </nav>
 
-    <section>
-        <!-- Article - Start -->
-        <article style="text-align: center; color: white;">
+        <article class="row d-flex justify-content-center" style="text-align:
+            left; color:
+            white;">
+            <div class="row" style="width: 100%;">
+                <img src="./img/1650577671862.jpeg"
+                    class="card-img-top" alt="lorem-picsum">
+                <div class="top-left" style="width: 18rem; margin-top: 185px; margin-left: 10px;">
+                    <h5 class="card-title">İletişim</h5>
+                    Adres:
+                    <address>
+                        Zemin İstanbul <br>
+                        Şahkulu, Şişhane Durağı, Meşrutiyet Cd. No:125 34421,<br>
+                        Beyoğlu / İstanbul
+                    </address>
+                    <a href="tel:0212223344">0 212 222 33 44</a>
+                    <br>
+                    <a href="mailto:info@kodluyoruz.org">info@kodluyoruz.com</a>
+                    <br>
+                    <div>
+                        <a href="tel:0212223344" class="btn btn-danger" style="margin-top:20px;">ARA</a>
+                    </div>
+                </div>
+            </div>           
+        </article>
 
-            <img src="https://picsum.photos/id/237/335/300" alt="Yazı 1">
-            <p>
-                Adres:
-            </p>
-            <p>
-                <address>
-                    Zemin İstanbul <br>
-                    Şahkulu, Şişhane Durağı, Meşrutiyet Cd. No:125 34421,<br>
-                    Beyoğlu / İstanbul
-                </address>
-            </p>        
-            <ul>
-                <li><a href="tel:0212223344">0 212 222 33 44</a></li>
-                <li><a href="mailto:info@kodluyoruz.org">info@kodluyoruz.com</a></li>
-            </ull>
-            
-        </article>    
 
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-  </body>
+
+
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+    </body>
 </html>
